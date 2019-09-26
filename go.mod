@@ -1,4 +1,4 @@
-module github.com/surh-go/logrus_conf
+module github.com/asr-go/logrus_conf
 
 go 1.12
 
