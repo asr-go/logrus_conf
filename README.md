@@ -14,7 +14,7 @@ package main
 import (
   "github.com/sirupsen/logrus"
   
-  logrus_conf "github.com/surh-go/logrus_conf"
+  logrus_conf "github.com/asr-go/logrus_conf"
 )
 
 func main() {
@@ -32,9 +32,9 @@ package main
 
 import (
   "github.com/gin-gonic/gin"
-  "github.com/surh-go/logrus_conf/middleware"
+  "github.com/asr-go/logrus_conf/middleware"
 
-  _ "github.com/surh-go/logrus_conf"
+  _ "github.com/asr-go/logrus_conf"
 )
 
 func main() {

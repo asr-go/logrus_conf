@@ -5,8 +5,8 @@ import (
 	"strconv"
 
 	"github.com/sirupsen/logrus"
-	"github.com/surh-go/logrus_conf/caller"
-	"github.com/surh-go/logrus_conf/hooks"
+	"github.com/asr-go/logrus_conf/caller"
+	"github.com/asr-go/logrus_conf/hooks"
 )
 
 // Init 初始化
