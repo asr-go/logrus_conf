@@ -39,7 +39,7 @@ import (
 
 func main() {
   r := gin.New()
-  r.Use(middleware.GinMiddleware())
+  r.Use(middleware.GinMiddleware(true))
   r.Run(":8080")
 }
 ```
