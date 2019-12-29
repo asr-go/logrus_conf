@@ -1,12 +1,12 @@
-package config
+package logrusconf
 
 import (
 	"runtime"
 	"strconv"
 
-	"github.com/sirupsen/logrus"
 	"github.com/asr-go/logrusconf/caller"
 	"github.com/asr-go/logrusconf/hooks"
+	"github.com/sirupsen/logrus"
 )
 
 // Init 初始化
