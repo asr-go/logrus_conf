@@ -10,12 +10,12 @@ import (
 )
 
 // Init 初始化
-func Init(filename string) {
-	initFormatter()
+func Init(level logrus.Level, filename string) {
+	initFormatter(level)
 	initHook(filename)
 }
 
-func initFormatter() {
+func initFormatter(level logrus.Level) {
 	customFormatter := new(logrus.TextFormatter)
 	customFormatter.FullTimestamp = true                    // 显示完整时间
 	customFormatter.TimestampFormat = "2006-01-02 15:04:05" // 时间格式
