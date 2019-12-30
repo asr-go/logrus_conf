@@ -28,7 +28,7 @@ func initFormatter(level logrus.Level) {
 
 	logrus.SetReportCaller(true)
 	logrus.SetFormatter(customFormatter)
-	logrus.SetLevel(logrus.DebugLevel)
+	logrus.SetLevel(level)
 }
 
 func initHook(filename string) {
