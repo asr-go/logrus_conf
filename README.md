@@ -14,7 +14,7 @@ package main
 import (
   "github.com/sirupsen/logrus"
   
-  logrusconf "github.com/asr-go/logrusconf"
+  "github.com/asr-go/logrusconf"
 )
 
 func main() {
